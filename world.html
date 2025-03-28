@@ -1,0 +1,39 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Global Water Crisis Map</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Federo&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="icon" href="views/pics/favicom.png" type="image/png">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <link rel="stylesheet" href="views/css/world.css">
+    
+    </head>
+    <body>
+    
+        <div class="map-container">
+            <h1 class="federo-regular">Global Water Crisis Map   <span class="live-icon">● LIVE</span> </h1>
+                  
+            <p class="description">
+                <span class="legend-box red"></span> High Crisis (Red) 
+                <span class="legend-box orange"></span> Moderate Crisis (Orange) 
+                <span class="legend-box yellow"></span> Mild Crisis (Yellow) 
+                <span class="legend-box green"></span> Stable (Green) 
+                <span class="legend-box blue"></span> Abundant (Blue)
+            </p>
+            <div id="map"></div>
+        </div>
+    
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="https://unpkg.com/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+        <script src="views/js/world.js"></script>
+    
+    </body>
+    </html>
+    

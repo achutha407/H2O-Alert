@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - H2O Alert</title>
+    <link rel="stylesheet" href="views/css/feedback.css">
+    <link rel="icon" href="views/pics/favicom.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="icon" href="views/pics/favicon.png" type="image/png">
+</head>
+<body>
+
+    <div class="feedback-container">
+        <h1 class="federo-regular ">We Value Your Feedback! <span class="emoji">💧</span></h1>
+        <p class="description">Help us improve by sharing your thoughts about water crisis tracking.</p>
+
+        <form id="feedbackForm">
+            <div class="input-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" placeholder="Write your feedback..." required></textarea>
+            </div>
+
+            <button type="submit" class="federo-regular " >Submit Feedback</button>
+            <p id="confirmationMessage"></p>
+        </form>
+    </div>
+
+    <script src="views/js/feedback.js"></script>
+
+</body>
+</html>

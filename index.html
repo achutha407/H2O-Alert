@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2O Alert - Water Crisis Tracker</title>
+    <link rel="icon" href="views/pics/favicom.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Federo&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="views/css/index.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+
+
+        <div class="logo-container">
+            <img  src="views/pics/logo.png" alt="H2O Alert Logo">
+            <span class="federo-regular">H2O Alert</span> 
+        </div>
+        <nav>
+
+<!-- Buttons -->
+<a href="#" class="glass-button" onclick="openModal('aboutModal')">About</a>
+<a href="#" class="glass-button" onclick="openModal('faqModal')">FAQs</a>
+
+        </nav>
+        
+            
+        
+    </header>
+                    <!-- About Modal -->
+                    <div id="aboutModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal('aboutModal')">&times;</span>
+                            <h2>About H2O Alert</h2>
+                            <p>H2O Alert tracks and visualizes water crises globally and in India, helping users stay informed about water conservation efforts.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQs Modal -->
+                    <div id="faqModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal('faqModal')">&times;</span>
+                            <h2>Frequently Asked Questions</h2>
+                            <p><strong>Q: How does H2O Alert collect data?</strong></p>
+                            <p>A: We aggregate real-time water crisis data from verified sources and user reports.</p>
+                            <p><strong>Q: How can I contribute?</strong></p>
+                            <p>A: You can report water issues in your area through our feedback section.</p>
+                        </div>
+                    </div>
+    <!-- Sidebar Navigation (Hover Buttons) -->
+    <div class="sidebar">
+        <a href="world.html" class="hover-btn">
+            <img src="views/pics/world.png" class="icon "> <b>World Map</b>
+        </a>
+        <a href="india.html" class="hover-btn">
+            <img src="views/pics/india.png" class="icon"> <b>India Map</b>
+        </a>
+       
+        <a href="sources.html" class="hover-btn">
+            <img src="views/pics/sources.png" class="icon"> <b>Sources</b>
+        </a>
+        <a href="story.html" class="hover-btn">
+            <img src="views/pics/success.png" class="icon"> <b>Success Stories</b>
+        </a>
+        <a href="feedback.html" class="hover-btn">
+            <img src="views/pics/feedbacl.png" class="icon"> <b>Feedback</b>
+        </a>
+    </div>
+    
+
+    <!-- Hero Section (Changing Quotes) -->
+    <section class="hero">
+        <h1 id="quote" class="federo-regular">Loading...</h1>
+    </section>
+
+    <!-- Content Section (Slideshow + News) -->
+    <main>
+       <div class="slideshow-container">
+    <div class="slide fade">
+        <img src="views/pics/slide1.jpg" class="slideshow-img">
+    </div>
+    <div class="slide fade">
+        <img src="views/pics/slide2.jpg" class="slideshow-img">
+    </div>
+    <div class="slide fade">
+        <img src="views/pics/slide3.jpg" class="slideshow-img">
+    </div>
+</div>
+
+<div class="news-section">
+    <div class="news-section">
+        <div class="news-slideshow"> 
+            <div class="news-slide fade">
+                <img src="views/pics/news.png" alt="News 1">
+                <div class="news-caption federo-regular" >Water Crisis Worsens in Rural Areas</div>
+
+            </div>
+            <div class="news-slide fade">
+                <img src="views/pics/news2.png" alt="News 2">
+                <div class="news-caption federo-regular" >Governments Struggle to Provide Solutions</div>
+
+        
+            </div>
+            <div class="news-slide fade">
+                <img src="views/pics/news3.png" alt="News 3">
+                <div class="news-caption federo-regular" >Water Shortages Affect Millions</div>
+
+            </div>
+        </div>
+    </div>
+    
+    </main>
+
+    <script src="views/js/index.js"></script>
+</body>
+</html>
