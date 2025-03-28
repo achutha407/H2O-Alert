@@ -1,0 +1,100 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #003973, #E5E5BE);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.federo-regular {
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* Page Container */
+.feedback-container {
+    width: 50%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Description text */
+.description {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    width: 120px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.input-group input,
+.input-group textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-group textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Submit Button */
+button {
+    background: #ff914d;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff732d;
+}
+
+/* Confirmation Message */
+#confirmationMessage {
+    margin-top: 10px;
+    color: #4dff88;
+    font-weight: bold;
+}
+
+/* Emoji */
+.emoji {
+    font-size: 22px;
+}

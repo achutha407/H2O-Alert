@@ -1,0 +1,105 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #003973, #E5E5BE);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+html, body {
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+
+}
+
+/* Story Container */
+.story-container {
+    width: 70%;
+    max-width: 900px;
+    overflow: visible;
+    position: relative;
+}
+
+/* Individual Story */
+.story {
+    width: 80%;
+    display: none;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.story img {
+    width: 95%;
+    margin-left: 96px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.story-text {
+    width: 90%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: 95px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.active {
+    background-color: white;
+}
+
+/* Testimonial */
+.testimonial {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.federo-regular {
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

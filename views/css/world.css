@@ -1,0 +1,97 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #003973, #E5E5BE);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Page container */
+.map-container {
+    width: 80%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Description text */
+.description {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Heatmap Legend Styling */
+.legend-box {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+/* Color Coding */
+.red { background: #ff4d4d; }      /* Bright Red */
+.orange { background: #ff914d; }  /* Vivid Orange */
+.yellow { background: #ffd24d; }  /* Vibrant Yellow */
+.green { background: #4dff88; }   /* Bright Green */
+.blue { background: #4db8ff; }    /* Strong Blue */
+.gray { background: #a0a0a0; }    /* Default Gray */
+
+/* Map styling */
+#map {
+    height: 500px;
+    border-radius: 8px;
+}
+
+/* Tooltip Styling */
+.map-tooltip {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.map-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.live-icon {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-left: 8px;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+.federo-regular {
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
